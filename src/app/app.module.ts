@@ -4,7 +4,7 @@ import { HttpModule} from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { GithubComponent } from './github/github.component';
-// import { SearchComponent } from './search/search.component';
+import { SearchComponent } from './search/search.component';
 // import { RepositoryComponent } from './repository/repository.component';
 // import { UserService } from './user/user.service';
 import {HttpClientModule} from '@angular/common/http'
@@ -13,7 +13,7 @@ import {HttpClientModule} from '@angular/common/http'
   declarations: [
     AppComponent,
     GithubComponent,
-    // SearchComponent,
+    SearchComponent,
     // RepositoryComponent
   ],
   imports: [

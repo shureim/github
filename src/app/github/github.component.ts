@@ -17,10 +17,10 @@ export class GithubComponent implements OnInit {
   ngOnInit() {
 
   
-    // this.http.get("https://api.github.com/users/shureim?access_token=2884de21cebef1f12fa9ede808972579182c08ac").subscribe(Response=>{
-    // this.users=Response.json().data;
-    // console.log(this.users)
-    // })
+    this.http.get("https://api.github.com/users/shureim?access_token=2884de21cebef1f12fa9ede808972579182c08ac").subscribe(Response=>{
+    this.users=Response.json().data;
+    console.log(this.users)
+    })
   }
 
 }
