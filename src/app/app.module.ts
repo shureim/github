@@ -5,6 +5,7 @@ import { HttpModule} from '@angular/http';
 import { AppComponent } from './app.component';
 // import { GithubComponent } from './github/github.component';
 // import { SearchComponent } from './search/search.component';
+import { FormsModule } from '@angular/forms'
 import { RepositoryComponent } from './repository/repository.component';
 import{ ProfileServiceService } from './service/profile-service.service'
 import {HttpClientModule} from '@angular/common/http';
@@ -18,16 +19,17 @@ import { UsernameComponent } from './username/username.component';
     // SearchComponent,
     RepositoryComponent,
     UsernameComponent,
-    
-  
+
+
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
 
   ],
- 
+
   providers:[ProfileServiceService],
   bootstrap: [AppComponent]
 })
