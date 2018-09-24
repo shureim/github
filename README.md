@@ -1,4 +1,27 @@
-# Github
+# Github Application
+
+#### Github Application, 23/9/2018.
+
+#### By **Tarek Ali Abdi.**
+
+## Description.
+This is an application where users can search for github user and it will displays users repos, followers, followings, usernames, bio, description of the repository and also gives more information on it . 
+
+## Setup/Installation Requirements.
+* Make sure the computer has atom .
+* Make sure your computer in connected to a browser.
+* HTML, CSS and also Angular  has been used to form this application.
+
+## Known Bugs.
+there are no know Bugs in this web page.
+
+## Technologies Used in creating the pig dice.
+* HTML.
+* CSS.
+* Angular.
+
+## Support and contact details.
+For more information contact +25450995069 or Email me tarickaliabdi@gmail.com.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
