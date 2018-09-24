@@ -8,9 +8,9 @@ import {map} from 'rxjs/operators'
 })
 export class ProfileServiceService {
 
-  private username :string;
-  private clientid :"1ad44ae927ecd3adf2b0";
-  private clientsecret :"1f56d503ee33560b5ce69500fd6161ee7c0f9639"
+   username :string;
+   clientid :"1ad44ae927ecd3adf2b0";
+   clientsecret :"1f56d503ee33560b5ce69500fd6161ee7c0f9639"
 
   constructor(private http:Http) { 
     console.log('enter the console log');
