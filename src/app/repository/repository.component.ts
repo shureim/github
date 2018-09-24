@@ -16,18 +16,18 @@ export class RepositoryComponent implements OnInit {
     this.http=http;
    }
 
-  //  doRepository(repository:HTMLInputElement) {
-  //    let fullLink = this.link + repository.value + this.key
-  //    console.log(fullLink);
+   doRepository(repository:HTMLInputElement) {
+     let fullLink = this.link + repository.value + this.key
+     console.log(fullLink);
 
-  //    this.http.request(fullLink).subscribe(Response=>{
-  //      this.return=Response.json()
-  //      console.log(this.return);
+     this.http.request(fullLink).subscribe(Response=>{
+       this.return=Response.json()
+       console.log(this.return);
        
-  //    })
+     })
 
      
-  //  }
+   }
 
   ngOnInit() {
   }
