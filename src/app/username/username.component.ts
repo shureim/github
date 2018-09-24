@@ -9,7 +9,7 @@ import {ProfileServiceService} from '../service/profile-service.service'
 export class UsernameComponent implements OnInit {
   profile:any[];
   repos:any[];
-  // username:string;
+  username:string;
 
   constructor( private profileserviceservice:ProfileServiceService)  {
 
